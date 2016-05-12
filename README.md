@@ -5,7 +5,7 @@ Home: https://github.com/PyCQA/pep8-naming
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Plug-in for flake 8 to check the PEP-8 naming conventions
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pep8-naming-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pep8-naming-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pep8-naming-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pep8-naming-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pep8-naming-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pep8-naming-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pep8-naming/badges/version.svg)](https://anaconda.org/conda-forge/pep8-naming)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pep8-naming/badges/downloads.svg)](https://anaconda.org/conda-forge/pep8-naming)
 
 
 Updating pep8-naming-feedstock
