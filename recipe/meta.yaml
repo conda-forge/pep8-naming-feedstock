@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.4.1" %}
 
 package:
   name: pep8-naming
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: pep8-naming-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/p/pep8-naming/pep8-naming-{{ version }}.tar.gz
-  md5: 566f05660200993191312d51cd5a6cc9
+  url: https://pypi.io/packages/source/p/pep8-naming/pep8-naming-{{ version }}.tar.gz
+  sha256: 4eedfd4c4b05e48796f74f5d8628c068ff788b9c2b08471ad408007fc6450e5a
 
 build:
   script: python setup.py install --single-version-externally-managed --record record.txt
