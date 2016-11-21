@@ -3,7 +3,7 @@ About pep8-naming
 
 Home: https://github.com/PyCQA/pep8-naming
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 

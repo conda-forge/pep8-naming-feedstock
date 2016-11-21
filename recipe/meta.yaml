@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/PyCQA/pep8-naming
-  license: MIT License
+  license: MIT
   summary: 'Plug-in for flake 8 to check the PEP-8 naming conventions'
 
 extra:
