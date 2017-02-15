@@ -1,13 +1,15 @@
+{% set name = "pep8-naming" %}
 {% set version = "0.4.1" %}
+{% set sha256 = "4eedfd4c4b05e48796f74f5d8628c068ff788b9c2b08471ad408007fc6450e5a" %}
 
 package:
-  name: pep8-naming
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: pep8-naming-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/pep8-naming/pep8-naming-{{ version }}.tar.gz
-  sha256: 4eedfd4c4b05e48796f74f5d8628c068ff788b9c2b08471ad408007fc6450e5a
+  fn: {{name}}-{{version}}.tar.gz
+  url: https://pypi.io/packages/source/{{name[0]}}/{{name}}/{{name}}-{{version}}.tar.gz
+  sha256: {{sha256}}
 
 build:
   script: python setup.py install --single-version-externally-managed --record record.txt
