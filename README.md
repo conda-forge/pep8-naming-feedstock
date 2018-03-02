@@ -14,9 +14,7 @@ Summary: Plug-in for flake 8 to check the PEP-8 naming conventions
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pep8-naming-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pep8-naming-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pep8-naming-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pep8-naming-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pep8-naming-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pep8-naming-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pep8-naming-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pep8-naming-feedstock)
 
 Current release info
 ====================
