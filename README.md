@@ -14,12 +14,15 @@ Summary: Plug-in for flake 8 to check the PEP-8 naming conventions
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pep8-naming-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pep8-naming-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pep8-naming-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pep8-naming-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pep8-naming/badges/version.svg)](https://anaconda.org/conda-forge/pep8-naming)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pep8-naming/badges/downloads.svg)](https://anaconda.org/conda-forge/pep8-naming)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pep8--naming-green.svg)](https://anaconda.org/conda-forge/pep8-naming) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pep8-naming.svg)](https://anaconda.org/conda-forge/pep8-naming) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pep8-naming.svg)](https://anaconda.org/conda-forge/pep8-naming) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pep8-naming.svg)](https://anaconda.org/conda-forge/pep8-naming) |
 
 Installing pep8-naming
 ======================
