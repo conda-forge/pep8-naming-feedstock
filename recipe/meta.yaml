@@ -34,8 +34,7 @@ about:
   home: https://github.com/PyCQA/pep8-naming
   license: MIT
   license_family: MIT
-# Can't add license file until there's a new release
-#  license_file: LICENSE
+  license_file: LICENSE
   summary: 'Plug-in for flake 8 to check the PEP-8 naming conventions'
   dev_url: https://github.com/PyCQA/pep8-naming
 
