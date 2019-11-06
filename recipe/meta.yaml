@@ -1,6 +1,6 @@
 {% set name = "pep8-naming" %}
-{% set version = "0.8.2" %}
-{% set sha256 = "01cb1dab2f3ce9045133d08449f1b6b93531dceacb9ef04f67087c11c723cea9" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "c572c652904cb76581bc326f498b23574306ad253a069c75633f7c12eb46b91a" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   number: 0
 
 requirements:
