@@ -1,6 +1,6 @@
 {% set name = "pep8-naming" %}
-{% set version = "0.9.1" %}
-{% set sha256 = "a33d38177056321a167decd6ba70b890856ba5025f0a8eca6a3eda607da93caf" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "f3b4a5f9dd72b991bf7d8e2a341d2e1aa3a884a769b5aaac4f56825c1763bf3a" %}
 
 package:
   name: {{ name|lower }}
@@ -28,14 +28,14 @@ requirements:
 
 test:
   commands:
-    - "flake8 --version | grep naming:"
+    - 'flake8 --version | grep naming:'
 
 about:
   home: https://github.com/PyCQA/pep8-naming
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Plug-in for flake 8 to check the PEP-8 naming conventions'
+  summary: Plug-in for flake 8 to check the PEP-8 naming conventions
   dev_url: https://github.com/PyCQA/pep8-naming
 
 extra:
