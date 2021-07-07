@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
 
   run:
-    - python
-    - flake8
+    - python >=3.6
+    - flake8 >=3.9.1
     - flake8-polyfill >=1.0.2,<2
 
 test:
