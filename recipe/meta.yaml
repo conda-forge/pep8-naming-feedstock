@@ -1,6 +1,6 @@
 {% set name = "pep8-naming" %}
-{% set version = "0.11.1" %}
-{% set sha256 = "a1dd47dd243adfe8a83616e27cf03164960b507530f155db94e10b36a6cd6724" %}
+{% set version = "0.12.0" %}
+{% set sha256 = "1f9a3ecb2f3fd83240fd40afdd70acc89695c49c333413e49788f93b61827e12" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   number: 0
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
