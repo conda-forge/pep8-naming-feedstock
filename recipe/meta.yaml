@@ -1,6 +1,6 @@
 {% set name = "pep8-naming" %}
-{% set version = "0.13.3" %}
-{% set sha256 = "1705f046dfcd851378aac3be1cd1551c7c1e5ff363bacad707d43007877fa971" %}
+{% set version = "0.14.0" %}
+{% set sha256 = "c2dcf35de7731b4fe1adcea4ca97e0abf52c811b137054edd25816a34016c9cd" %}
 
 package:
   name: {{ name|lower }}
@@ -18,11 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
-
   run:
-    - python >=3.7
+    - python >=3.8
     - flake8 >=5.0.0
 
 test:
