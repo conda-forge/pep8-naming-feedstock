@@ -1,6 +1,6 @@
 {% set name = "pep8-naming" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "a637ee5144f7585c800b1fc6eeb996fa35a2ef0f2690880a9e1b29cb9f6e8359" %}
+{% set version = "0.15.1" %}
+{% set sha256 = "f6f4a499aba2deeda93c1f26ccc02f3da32b035c8b2db9696b730ef2c9639d29" %}
 
 package:
   name: {{ name|lower }}
